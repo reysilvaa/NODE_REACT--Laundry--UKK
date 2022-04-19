@@ -1,0 +1,76 @@
+/* .a collapse-item {
+  text-decoration: none;
+  color: inherit;
+}
+.link{
+  text-decoration: none;
+}
+.a{
+  text-decoration: none;
+} */
+/* The sidebar menu */
+#sidenav {
+  height: auto; /* Full-height: remove this if you want "auto" height */
+  width: auto; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: blue; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+  text-decoration: none;
+  background-color:transparent;
+  color:White;
+  
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+#fix{
+  background-color: transparent;
+  text-decoration: none;
+}
+.sidenav ul{
+  text-decoration: none;
+  background-color: transparent;
+}
+.sidebar-brand-text{
+font-family: 'Mochiy Pop P One', sans-serif;
+}
+#li{
+  text-decoration: none ;
+}
+a, a:link, a:visited, a:focus, a:hover, a:active{
+  text-decoration:none; 
+}
+a:link{
+  color: white;
+}

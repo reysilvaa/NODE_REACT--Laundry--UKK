@@ -1,0 +1,11 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+.bg-image {
+  /* background-image: url('https://therichpost.com/wp-content/uploads/2021/02/login-split.jpg'); */
+  background-size: cover;
+  background-image: url('../welcome.png');
+  background-position: center center;
+  max-width: 50%;
+}
